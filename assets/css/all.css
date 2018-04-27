@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#sticky-sidebar{
+	text-align: center;
+	height: 100vh;
+	padding-top: 75px;
+}
+#sticky-sidebar .logo{
+	margin: 0 0 100px;
+}
+#sticky-sidebar .logo a{
+}
+#sticky-sidebar .side-nav{
+	text-align: center;
+}
+#sticky-sidebar .side-nav li{
+	float: none;
+	margin: 20px 0 ;
+}
+#sticky-sidebar .side-nav li a{
+	display: block;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+#sticky-sidebar .side-nav li a:hover{
+	text-decoration: none;
+
+}
+#sticky-sidebar .side-nav li .active{
+	font-weight: bold;
+}
+#main{
+	background:#217DC2;
+}
+.welcome{
+	height: 100vh;
+	display: table;
+	width: 100%;
+}
+.welcome p{
+	color: #fff;
+	margin: 0;
+	font-size: 24px;
+	text-transform: capitalize;
+	
+}
+.welcome .holder{
+	display: table-cell;
+	vertical-align: middle;
+}
+.heading{
+	border-top: 2px solid #fff;
+	display: block;
+	text-align: left;
+	color: #fff;
+}
+#about{
+	background: #217DC2;
+	height: 100vh;
+}
