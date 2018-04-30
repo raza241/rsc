@@ -10,18 +10,41 @@ ul{
 a{
 	text-decoration: none;
 }
+img{
+	width: 100%;
+	height: auto;
+}
 #sticky-sidebar{
 	text-align: center;
 	height: 100vh;
 	padding-top: 75px;
+	position:fixed;
+	max-width:31%;
+	z-index:99;
+}
+.holder{
+	display:table;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.holder-1{
+	display:table-cell;
+	vertical-align:middle;
 }
 #sticky-sidebar .logo{
-	margin: 0 0 100px;
+	margin: 0 auto;
+	max-width:283px;
+}
+#sticky-sidebar .logo img{
+	width:100%;
+	height:auto;
 }
 #sticky-sidebar .logo a{
 }
 #sticky-sidebar .side-nav{
 	text-align: center;
+	margin:100px 0 0;
 }
 #sticky-sidebar .side-nav li{
 	float: none;
@@ -43,7 +66,7 @@ a{
 	background:#217DC2;
 }
 .welcome{
-	height: 100vh;
+	min-height: 100vh;
 	display: table;
 	width: 100%;
 }
@@ -58,13 +81,219 @@ a{
 	display: table-cell;
 	vertical-align: middle;
 }
-.heading{
+#about{
+	background: #217DC2;
+	min-height: 100vh;
+}
+.content{
+	padding:25px 0;	
+	width:80%;
+	margin:0 auto;
+}
+.custom-border{
 	border-top: 2px solid #fff;
 	display: block;
 	text-align: left;
 	color: #fff;
+	padding: 15px 0 0;
 }
-#about{
+
+#about .content p {
+	font-size: 18px;
+	font-weight: lighter;
+	margin:0;
+}
+#about .content p span{
+	display: block;
+	margin: 25px 0 0;
+}
+.heading{
+	display: block;
+	color: #76C3E2;
+	margin: 0 0 15px;
+	text-transform: capitalize;
+	font-style: italic;
+}
+#about .services ul li{
+	font-size: 14px;
+	margin: 5px 0;
+	position: relative;
+}
+#about .services ul li:before{
+	position: absolute;
+	left: -20px;
+	top: 8px;
+	content: '';
+	width: 5px;
+	height: 5px;
+	background: #fff;
+	border-radius: 15px;
+}
+#about .services .button{
+	text-align: center;
+	margin: 25px 0 0;
+}
+#about .services .button a{
+	display: inline-block;
+	text-align: center;
+	background: #96DAEA;
+	color: #1D89CE;
+	padding: 10px 25px;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+#capibilites{
 	background: #217DC2;
-	height: 100vh;
+	min-height: 100vh;
+}
+#capibilites p{
+	font-size: 12px;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 10px 0;
+}
+#our-team{
+	background: #217DC2;
+	min-height: 100vh;
+}
+#our-team .oprations{
+	margin: 0 0 15px;
+}
+#our-team .power-by{
+	text-transform: capitalize;
+	margin: 25px 0 0;
+}
+#our-team .team-member{
+	background: #0075C9;
+	padding: 0;
+	max-width: 200px;
+	margin: 0 auto 20px;
+}
+#our-team .team-member .detail{
+	padding:5px 10px;
+}
+#our-team .team-member .detail span{
+	font-weight: bold;
+	font-size: 16px;
+	display: block;
+	text-transform: capitalize;
+}
+#our-team .team-member .detail p{
+	margin: 0 0 10px;
+	font-size: 12px;
+	font-weight: lighter;
+}
+#our-team .team-member .image img{
+	height: 125px;
+
+}
+#our-team .team-member .detail .social li{
+	display: inline-block;
+}
+#our-team .team-member .detail .social li a{
+	color: #fff;
+}
+#our-team .team-member .detail .social li a .fas{
+	margin: 0 10px 0 0;
+}
+#testimonials{
+	background: #217DC2;
+	min-height: 100vh;
+}
+#testimonials .holder{
+	height: 500px;
+}
+#testimonials .custom-carousel{
+	background: #fff;
+	text-align: center;
+	padding: 60px 0;
+}
+#testimonials .custom-carousel span{
+	color: #217DC2;
+	font-size:25px;
+	font-weight: bold;
+}
+#testimonials .custom-carousel p{
+	color: #217DC2;
+	margin: 25px 0;
+}
+#testimonials .testimonials-detail{
+	width: 60%;
+	margin: 0 auto;
+}
+.custom-control{
+	align-items: flex-end;
+	bottom: 30px;
+	color: #217DC2;
+	padding: 0;
+}
+.custom-control .fas{
+	color: #217DC2;
+    font-size: 18px;
+    border-radius: 3px;
+    background: #96DAEA;
+    padding: 10px;
+}
+#payment{
+	background: #217DC2;
+	min-height: 100vh;
+}
+#payment .email{
+	margin: 0 0 25px;
+}
+#payment .email span{
+	font-weight: light;
+	font-size: 22px;
+}
+#payment .email span a{
+	color: #fff;
+	text-decoration: none;
+}
+#payment .payment-term p{
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 22px;
+	margin:0 0 50px;
+}
+#payment .payment-term .visa-cards li{
+	display: inline-block;
+	max-width: 60px;
+}
+#payment .privacy-terms{
+	font-size: 13px
+}
+#payment .privacy-terms p{
+	word-spacing: 2px;
+}
+#contact{
+	background: #217DC2;
+	min-height: 100vh;
+}
+#contact .form-group {
+	margin: 25px 0 0;
+}
+#contact .form-group label{
+	display: block;
+	text-transform: uppercase;
+	font-size: 10px;
+	margin: 0 0 5px;
+	font-weight: bold;
+}
+#contact .form-group input{
+	width: 100%;
+	margin: 0 0 25px;
+	padding: 7px;
+	border:none;
+	border-radius: 2px;
+}
+#contact .form-group .custom-button{
+	background: #96DAEA;
+	color:#217DC2;
+	width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 0;
+    margin: 20px 0 0;
 }
