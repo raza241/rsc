@@ -18,16 +18,24 @@
 
 	<div class="container-fluid">
 	  <div class="row">
-	    <div class="col-md-4" >
+	    <div class="col-sm-12 col-md-4" >
 	      	<div class="col-md-12" id="sticky-sidebar">
 		      	<div class="holder">
-		      		<div class="holder-1">
-		        		<div class="logo">
+		      		<div class="holder-1 navbar-toggleable-md navbar-light">
+		      			<!-- <nav class="navbar navbar-toggleable-md navbar-light bg-faded"> -->
+			      		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    						<span class="navbar-toggler-icon"></span>
+  						</button>
+  						<div class="logo">
+  						 <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="#"></a>
+  						 </div>
+		        		<!-- <div class="logo">
 		      				<a href="#"><img src="assets/images/logo.png" alt="#"></a>
-		      			</div>
-		      			<ul class="side-nav">
-		      			<li>
-		      				<a href="#" class="active">welcome</a>
+		      			</div> -->
+		      			 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      				<ul class="side-nav navbar-nav mr-auto">
+		      					<li>
+		      				<a href="#welcome" class="active">welcome</a>
 		      			</li>
 		      			<li>
 		      				<a href="#about">about</a>
@@ -49,6 +57,7 @@
 		      			</li>
 		      			</ul>
 		      		</div>
+		      		</div>
 		      	</div>
 	      	</div>
 	    </div>
@@ -58,7 +67,7 @@
 
 
 	    <div class="col-md-8 " id="main">
-	    	<div class=" welcome">
+	    	<div id="welcome">
 	    		<div class="holder">
 	    			<p class="text-center">
 	    				we excel through helping others.
