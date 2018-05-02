@@ -143,6 +143,11 @@ img{
 	text-decoration: none;
 	font-size: 12px;
 	font-weight: bold;
+	transition: 0.3s;
+}
+#about .services .button a:hover {
+	color: #96DAEA;
+	background: #1D89CE;
 }
 #capibilites{
 	background: #217DC2;
@@ -186,7 +191,8 @@ img{
 	font-weight: lighter;
 }
 #our-team .team-member .image img{
-	height: 125px;
+	height: 190px;
+	width: auto;
 
 }
 #our-team .team-member .detail .social li{
@@ -197,6 +203,9 @@ img{
 }
 #our-team .team-member .detail .social li a .fas{
 	margin: 0 10px 0 0;
+}
+#our-team .team-member .detail .social li a i:hover {
+	color: #7781D4;
 }
 #testimonials{
 	background: #217DC2;
@@ -297,6 +306,7 @@ img{
     padding: 12px 0;
     margin: 20px 0 0;
 }
+<<<<<<< HEAD
 .collapse:not(.show){
 	display: block;
 }
@@ -323,4 +333,9 @@ img{
 	.navbar-toggler{
 		color: #000;
 	}
+=======
+#contact .form-group .custom-button:hover {
+	color: #96DAEA;
+	background:#217DC2;
+>>>>>>> ff099cd41997cfcaa4bc28de82b102b01dcd8c69
 }
