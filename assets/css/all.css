@@ -69,22 +69,29 @@ img{
 }
 #main{
     background:#217DC2;
+    padding: 0;
 }
 #welcome{
     min-height: 100vh;
-    display: table;
     width: 100%;
+    position: relative;
+}
+#welcome img{
+    width: 100%;
+    height: 100vh;
+}
+#welcome .text-middle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background:rgba(0, 0, 0, 0.5);
 }
 #welcome p{
     color: #fff;
     margin: 0;
     font-size: 24px;
     text-transform: capitalize;
-
-}
-#welcome .holder{
-    display: table-cell;
-    vertical-align: middle;
 }
 #about{
     background: #217DC2;
@@ -137,6 +144,7 @@ img{
 #about .services .button{
     text-align: center;
     margin: 25px 0 0;
+    width: 100%;
 }
 #about .services .button a{
     display: inline-block;
@@ -258,7 +266,7 @@ img{
     margin: 0 0 25px;
 }
 #payment .email span{
-    font-weight: light;
+    font-weight:lighter;
     font-size: 22px;
 }
 #payment .email span a{
@@ -477,7 +485,7 @@ img{
         width: 50px;
         z-index: 9999;
         color: #000;
-        position: fixed;
+        position: absolute;
         right: 36px;
         margin: 0 auto;
         -webkit-transition: all 1s ease;
