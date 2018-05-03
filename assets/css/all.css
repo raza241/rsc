@@ -26,7 +26,7 @@ img{
 .holder{
     display:table;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0 auto;
 }
 .holder-1{
@@ -226,7 +226,7 @@ img{
     background: #1B84CE;
     min-height: 100vh;
 }
-#testimonials .holder{
+#testimonials .content .holder{
     height: 500px;
 }
 #testimonials .custom-carousel{
