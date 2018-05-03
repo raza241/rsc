@@ -13,51 +13,47 @@
         <title>TECHNICAL</title>
     </head>
     <body>
-
-        <!--Responsive Nav-->
-        <nav class="nav-container hidden hideNav">
-            <ul class="nav-list">
-                <li class="list-item">
-                    <a href="#welcome" class="active">welcome</a>
-                </li>
-                <li class="list-item">
-                    <a href="#about">about</a>
-                </li>
-                <li class="list-item">
-                    <a href="#capibilites">capibilites</a>
-                </li>
-                <li class="list-item">
-                    <a href="#our-team">team</a>
-                </li>
-                <li class="list-item">
-                    <a href="#testimonials">testimonials</a>
-                </li>
-                <li class="list-item">
-                    <a href="#payment">payment</a>
-                </li>
-                <li class="list-item">
-                    <a href="#contact">contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="btn-nav">
-            <div class="bar arrow-top-r"></div>
-            <div class="bar arrow-middle-r"></div>
-            <div class="bar arrow-bottom-r"></div>
-        </div>
-
-
         <div class="container-fluid">
             <div class="row">
 
                 <!-- Sidebar Start from here -->
 
-                <div class=" col-md-4" >
+                <div class=" col-md-4 responsive-nav" >
                     <div class="col-md-12" id="sticky-sidebar">
+                        <nav class="nav-container hidden hideNav">
+                            <ul class="nav-list">
+                                <li class="list-item">
+                                    <a href="#welcome" class="active scroll">welcome</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="scroll" href="#about">about</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="scroll" href="#capibilites">capibilites</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="scroll" href="#our-team">team</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="scroll" href="#testimonials">testimonials</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="scroll" href="#payment">payment</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="scroll" href="#contact">contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="btn-nav">
+                            <div class="bar arrow-top-r"></div>
+                            <div class="bar arrow-middle-r"></div>
+                            <div class="bar arrow-bottom-r"></div>
+                        </div>
                         <div class="holder">
                             <div class="holder-1">
                                 <div class="logo">
-                                    <a href="#">
+                                    <a class="scroll" href="#welcome">
                                         <img src="assets/images/logo.png" alt="#">
                                     </a>
                                 </div>
@@ -382,15 +378,15 @@
                                                 <label>
                                                     full name
                                                 </label>
-                                                <input type="text">
+                                                <input type="text" required>
                                                 <label>
                                                     email
                                                 </label>
-                                                <input type="email">
+                                                <input type="email" required>
                                                 <label>
                                                     your phone
                                                 </label>
-                                                <input type="text">
+                                                <input type="text" required>
                                                 <button type="submit" class="btn btn-primary custom-button">Submit</button>
                                             </div>
                                         </form>
