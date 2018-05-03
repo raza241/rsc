@@ -458,10 +458,6 @@ img{
         -o-animation: hideNav 1s ease forwards;
         animation: hideNav 1s ease forwards;
     }
-    button {
-        background: none;
-        border: none;
-    }
 
     .btn-nav:hover { cursor: pointer; }
 
