@@ -60,15 +60,17 @@ img{
 #sticky-sidebar .side-nav li > a:hover,
 #sticky-sidebar .side-nav li > a:focus{
     text-decoration: none;
-    font-weight: bold;
+   font-weight: bold;
     color: #0075c9;
+    padding: 0 0 0 40px;
+    transition: 1.5s;
 }
 #sticky-sidebar .side-nav li.active > a {
     font-weight: bold;
     color: #0075c9;
 }
 #main{
-    background:#217DC2;
+    background:#1B84CE;
     padding: 0;
 }
 #welcome{
@@ -94,7 +96,7 @@ img{
     text-transform: capitalize;
 }
 #about{
-    background: #217DC2;
+    background: #1B84CE;
     min-height: 100vh;
 }
 .content{
@@ -163,7 +165,7 @@ img{
     background: #1D89CE;
 }
 #capibilites{
-    background: #217DC2;
+    background: #1B84CE;
     min-height: 100vh;
 }
 #capibilites p{
@@ -173,7 +175,7 @@ img{
     margin: 10px 0;
 }
 #our-team{
-    background: #217DC2;
+    background: #1B84CE;
     min-height: 100vh;
 }
 #our-team .oprations{
@@ -186,7 +188,7 @@ img{
 #our-team .team-member{
     background: #0075C9;
     padding: 0;
-    max-width: 200px;
+    max-width: 213px;
     margin: 0 auto 20px;
 }
 #our-team .team-member .detail{
@@ -203,7 +205,7 @@ img{
     font-size: 12px;
     font-weight: lighter;
 }
-#our-team .team-member .image img{
+#our-team img{
     height: 190px;
     width: auto;
 
@@ -211,7 +213,7 @@ img{
 #our-team .team-member .detail .social li{
     display: inline-block;
 }
-#our-team .team-member .detail .social li a{
+#our-team a{
     color: #fff;
 }
 #our-team .team-member .detail .social li a .fas{
@@ -221,7 +223,7 @@ img{
     color: #7781D4;
 }
 #testimonials{
-    background: #217DC2;
+    background: #1B84CE;
     min-height: 100vh;
 }
 #testimonials .holder{
@@ -259,7 +261,7 @@ img{
     padding: 10px;
 }
 #payment{
-    background: #217DC2;
+    background: #1B84CE;
     min-height: 100vh;
 }
 #payment .email{
@@ -290,7 +292,7 @@ img{
     word-spacing: 2px;
 }
 #contact{
-    background: #217DC2;
+    background: #1B84CE;
     min-height: 100vh;
 }
 #contact .form-group {
@@ -324,6 +326,17 @@ img{
 }
 .btn-nav{
     display: none;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+.fa-arrow-circle-up{
+    font-size: 40px;
+    color:#fff;
 }
 @media (max-width: 767px){
     #sticky-sidebar{
